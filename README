@@ -1,0 +1,61 @@
+File Structure: 
+
+ee6470_mid/
+|-- DWT1.cpp
+|-- DWT1.h
+|-- DWT2.cpp
+|-- DWT2.h
+|-- Makefile
+|-- PAD1.cpp
+|-- PAD1.h
+|-- PAD2.cpp
+|-- PAD2.h
+|-- README
+|-- System.cpp
+|-- System.h
+|-- Testbench.cpp
+|-- Testbench.h
+|-- data
+|   |-- B3D71S50_0.dat
+|   |-- B3D71S50_1.dat
+|   |-- B3D71S50_2.dat
+|   |-- B3D71S50_3.dat
+|   |-- B3D71S50_4.dat
+|   |-- B3D71S50_5.dat
+|   |-- B3D71S50_6.dat
+|   |-- B3D71S50_7.dat
+|   |-- B3D71S50_8.dat
+|   `-- B3D71S50_9.dat
+|-- dwt_def.h
+|-- main.cpp
+|-- mid_report.pdf
+|-- out
+|-- report.md
+`-- stratus
+    |-- Makefile
+    |-- project.tcl
+    `-- run.sh
+
+3 directories, 31 files
+
+How to run? (use data/ data, 10 files in total)
+
+1.      Change directory to stratus/, type "cd stratus"
+
+2.		Run behavioral simulation, synthesis, and Verilog simulation with BASIC and DPA configuration,
+		type sh run.sh
+
+3.		Check result in "./bdw_work/sims/V_BASIC/bdw_sim.log"
+					and "./bdw_work/modules/PAD1/BASIC/stratus_hls.log"
+					and "./bdw_work/modules/DWT1/BASIC/stratus_hls.log"
+					and "./bdw_work/modules/PAD2/BASIC/stratus_hls.log"
+					and "./bdw_work/modules/DWT2/BASIC/stratus_hls.log"
+
+4.		Check result in "./bdw_work/sims/V_DPA/bdw_sim.log"
+					and "./bdw_work/modules/PAD1/DPA/stratus_hls.log"
+					and "./bdw_work/modules/DWT1/DPA/stratus_hls.log"
+					and "./bdw_work/modules/PAD2/DPA/stratus_hls.log"
+					and "./bdw_work/modules/DWT2/DPA/stratus_hls.log"
+
+5.		Check output files in "./out/", including out_0.dat, out_1.dat, etc (10 files in total)
+
