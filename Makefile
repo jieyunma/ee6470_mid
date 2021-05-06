@@ -54,7 +54,7 @@ $(objects):%.o:%.cpp
 
 ### phony ###
 run: dwt
-        ./dwt ../data/B3D71S50_99.dat ../out/out_99.dat
+        ./dwt ../data/B3D71S50_0.dat ../out/out_0.dat
 
 ${output}: run
 
