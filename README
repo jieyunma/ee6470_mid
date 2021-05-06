@@ -29,7 +29,6 @@ ee6470_mid/
 |-- dwt_def.h
 |-- main.cpp
 |-- mid_report.pdf
-|-- out
 |-- report.md
 `-- stratus
     |-- Makefile
@@ -57,5 +56,5 @@ How to run? (use data/ data, 10 files in total)
 					and "./bdw_work/modules/PAD2/DPA/stratus_hls.log"
 					and "./bdw_work/modules/DWT2/DPA/stratus_hls.log"
 
-5.		Check output files in "./out/", including out_0.dat, out_1.dat, etc (10 files in total)
+5.		Check output files in "../out/", including out_0.dat, out_1.dat, etc (10 files in total)
 
