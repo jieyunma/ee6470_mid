@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mkdir ../out/
+
 make sim_B
 make sim_V_BASIC
 make sim_V_DPA
