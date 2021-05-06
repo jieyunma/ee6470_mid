@@ -62,9 +62,9 @@ define_hls_config DWT2 BASIC
 define_hls_config DWT2 DPA       --dpopt_auto=op,expr
 
 set DATA_DIR           "../data"
-set IN_FILE_NAME        "${DATA_DIR}/B3D71S50_99.dat"
+set IN_FILE_NAME        "${DATA_DIR}/B3D71S50_0.dat"
 set OUT_DIR             "../out"
-set OUT_FILE_NAME                               "${OUT_DIR}/out_99.dat"
+set OUT_FILE_NAME                               "${OUT_DIR}/out_0.dat"
 
 define_sim_config B -argv "$IN_FILE_NAME $OUT_FILE_NAME"
 foreach cfg { BASIC DPA } {
